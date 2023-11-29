@@ -22,9 +22,7 @@ header, nav, main, footer{
 }
 p {
     text-align: center;
-    line-height: 2;
-    font-size: 12pt;
-    color: rgb(78, 30, 12);
+    font-size: 15pt;
   }
 a{
     text-decoration: none;
@@ -32,6 +30,7 @@ a{
 }
 h1{
     font-size: 24pt;
+    color: #A22428;
 }
 h2{
     font-size: 14pt;
@@ -43,8 +42,7 @@ header{
     flex: 1 1 100vw ;
     height: 120px;
     background-color: #A22428;
-    color: white;
-   
+    color: white; 
 }
     #openMenu, #closeMenu{
         border: none;
@@ -93,91 +91,41 @@ header{
     
 main{
     flex: 1 1 100vw ;
-    min-height: calc(100vh - 320px) ;
+    height: calc(100vh - 200px) ;
     flex-direction: column;
     background-color: #F4EAE4;
     justify-content: center;
     align-items: center;
-    color: #A22428;
+    color: rgb(78, 30, 12);
 }
+    #textp{
+        margin: 2vh 0 1vh 0;
+    }
     samp{
         font-size: 10pt;
-        color: #A22428;
+        color: rgb(78, 30, 12);
     }
-    ul{
-        list-style: none;
-        margin: 4vh 0;
+    .agradecimento-box{
         display: flex;
-        flex-wrap: wrap;
+        flex-direction: column;
+        text-align: center;
+        align-items: center;
+        flex: 0 1 500px;
+        background:none;
+        margin: 10%;
+
     }
-        li{
-            width: 250px;
-            height: 220px;
-            margin: 0 2vw;
-        }
-        #gerarAvaliacoes{
-            width: 9vw;
-            height: 30px;
-            margin: 0 0;
+        .returnbtn{
+            text-align: center;
+            width: 35%;
+            height: 40px;
+            margin: 0 32%;
             border-radius: 40px;
             border: 2px solid  #A22428;
             cursor: pointer;
             color: rgb(78, 30, 12);
             background: none;
         }
-            .imagebox{
-                width: 80px;
-                height: 80px;
-                position: fixed;
-                z-index: 1;
-                margin-left:calc((250px - 80px) / 2); /*(width <li> - width <div>) / 2)*/
-                border-radius: 50%;
-                background-color: #A22428;  
-            }
-                .image{
-                    width: 40px;
-                    height: 40px;
-                    margin-top: calc((80px - 40px) / 2);
-                    margin-left: calc((80px - 40px) / 2);
-                }
-            .contentbox{
-                width: 250px;
-                height: 180px;
-                position: fixed;
-                margin-top: 50px;
-                padding-top: 50px;
-                text-align: center;
-                background-color: rgb(231, 210, 198);
-            }
-            .content{
-                font-size: 12pt;
-                color: rgb(78, 30, 12);
-            }
-            .imgmain{
-                margin-top: auto;
-            }
-            .login-box{
-                display: flex;
-                flex-direction: column;
-                align-items: center;
-                flex: 0 1 500px;
-                background:none ; 
-                margin: 5% 0;
-            }
-    .parte1{
-        display: flex;
-        flex-direction: column;
-        text-align: center;
-        justify-content: center;
-        flex: 0 1 500px;
-        background:rgb(241, 225, 215);
-        border-radius: 20px;
-        box-shadow: 5px 5px 7px #d4d1ce;
-        padding: 2% 3%;
-        margin: 2% 0;
-    }
-    
-    
 
             
 footer{

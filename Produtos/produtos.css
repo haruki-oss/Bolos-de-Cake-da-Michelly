@@ -33,7 +33,7 @@ header{
     
     z-index: 1;
     flex: 1 1 100vw ;
-    height: 120px;
+    height: 150px;
     background-color: #A22428;
     color: white;
    
@@ -84,7 +84,6 @@ header{
     
 
 main{
-    
     flex: 1 1 100vw ;
     height: calc(100% - (120px + 200px + 24px)); /* 100%-(header+footer+margin(3px*4=24)*/
     background-color: #F4EAE4;
@@ -93,6 +92,8 @@ main{
     flex-wrap: wrap;
     color: rgb(78, 30, 12);
 }
+
+    
     #filtro{
         display: flex;
         flex: 0 1 1220px;
@@ -144,6 +145,13 @@ main{
                     height: 200px;
                     border-radius: 20px;    
                 }
+                .produtoimgB{
+                    display: flex;
+                    flex: 0 1 140px;
+                    height: 10px;
+                    border-radius: 20px;
+                    margin-top: 50px;    
+                }
                 .saborp{
                     display: flex;
                     flex-direction: column;
@@ -168,7 +176,7 @@ main{
             
 footer{
     flex: 1 1 100vw ;
-    height: 200px;
+    height: 120px;
     background-color: #A22428;
 }
 

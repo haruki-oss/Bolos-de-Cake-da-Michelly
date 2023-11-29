@@ -93,11 +93,8 @@ main{
         display: flex;
         flex-direction: column;
         align-items: center;
-        
         flex: 0 1 500px;
-        background:none
-        
-        
+        background:none 
     }
         .login-box a {
             margin: -1% 3%;
